@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="QA-container">
+    <h1>Quiz</h1>
+    <div id="container" >
+        <h2 id="questions">the question</h2>
+        <div id="answers-container">
+          <input id="choices-op1" type="radio" name="option" value="1">
+          <label id="lbl-choices-op1" for="choices-op1"></label><br/>
+
+          <input id="choices-op2" type="radio" name="option" value="2">
+          <label id="lbl-choices-op2" for="choices-op2"></label><br/>
+
+          <input id="choices-op3" type="radio" name="option" value="3">
+          <label id="lbl-choices-op3" for="choices-op3"></label><br/>
+        
+          <input id="choices-op4" type="radio" name="option" value="4">
+          <label id="lbl-choices-op4" for="choices-op4"></label>
+        </div>
+        <div id="next-container"><button id="next-btn" class="next-btn" onclick="read_selected_color()">next</button></div>
+    </div>
+    <div id="start-container" ><button id="start-btn" class="start-btn" onclick="startquiz()">start</button></div>
+  </div>
+  <Script src="main.js"></Script>
+</body>
+</html>
